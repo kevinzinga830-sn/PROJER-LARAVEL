@@ -21,3 +21,15 @@ Route::get('/register', function () {
 Route::get('/charts', function () {
     return view('charts');
 });
+
+Route::get('/forgot-password', function () {
+    return view('forgot-password');
+});
+
+Route::get('/404', function () {
+    return view('404');
+});
+
+Route::get('/blank', function () {
+    return view('blank');
+});
